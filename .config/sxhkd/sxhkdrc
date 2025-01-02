@@ -1,0 +1,14 @@
+Next
+    xdotool search --class "vlc" key space
+
+Home
+    $HOME/.local/bin/check_vlc_volume.sh
+
+Insert
+    xdotool search --class "vlc" key Down
+
+End
+    xdotool search --class "vlc" key n
+
+Delete
+    xdotool search --class "vlc" key p
