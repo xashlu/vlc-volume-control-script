@@ -48,11 +48,11 @@ The following versions were used during the development and testing of this scri
     ```
 
 2. **Download and Set Up the Script**:
-    Download the `vlc-volume-control.sh` script and place it in a directory of your choice, e.g., `$HOME/.local/bin/`.
+    Download the `manage_vlc_volume.sh` script and place it in a directory of your choice, e.g., `$HOME/.local/bin/`.
 
     Here's a sample command to make the script executable:
     ```bash
-    chmod +x $HOME/.local/bin/vlc-volume-control.sh
+    chmod +x $HOME/.local/bin/manage_vlc_volume.sh
     ```
 
 3. **Add the Hotkeys**:
@@ -62,7 +62,7 @@ The following versions were used during the development and testing of this scri
         xdotool search --class "vlc" key space
 
     Home
-        $HOME/.local/bin/vlc-volume-control.sh
+        $HOME/.local/bin/manage_vlc_volume.sh
 
     Insert
         xdotool search --class "vlc" key Down
@@ -83,7 +83,7 @@ The following versions were used during the development and testing of this scri
 5. **Test the Script**:
     Test the script independently by running:
     ```bash
-    $HOME/.local/bin/vlc-volume-control.sh
+    $HOME/.local/bin/manage_vlc_volume.sh
     ```
 
     This should print the current volume, increase it by 5%, and adjust the volume if it exceeds 100%.
